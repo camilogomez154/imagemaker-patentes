@@ -1,18 +1,32 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "noImplicitAny": true,
+    "target": "es5",
     "module": "commonjs",
-    "sourceMap": true,
-    "target": "es6",
-    "sourceRoot": "/src",
-    "outDir": "/build",
-    "baseUrl": "."
+    "allowJs": true,
+    "checkJs": true,
+    "outDir": "./build/",
+    "rootDir": "./src/",
+    "removeComments": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": false,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "downlevelIteration": true
   },
   "exclude": [
     "/node_modules/",
-    "/build/"
+    "/build/",
+    "/dist/"
   ]
 }
