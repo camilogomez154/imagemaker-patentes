@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "sourceMap": true,
+    "target": "es6",
+    "sourceRoot": "/src",
+    "outDir": "/build",
+    "baseUrl": "."
+  },
+  "exclude": [
+    "/node_modules/",
+    "/build/"
+  ]
+}
